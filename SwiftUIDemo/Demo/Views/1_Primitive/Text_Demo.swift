@@ -16,10 +16,11 @@ struct Text_Demo: View {
     Text("Learn SwiftUI")
         .font(.largeTitle)
         .fontDesign(.serif)
+        .border(.brown)
 }
 
 #Preview("Markdown") {
-    Text("Visit **Apple** [website](https://www.apple.com)")
+    Text("**Visit Apple** [website](https://www.apple.com)")
 }
 
 #Preview("Interpolation") {
@@ -31,7 +32,7 @@ struct Text_Demo: View {
 }
 
 #Preview("Plurals") {
-    let count = 1
+    let count = 3
     Text("Sold ^[\(count) tickets](inflect: true)")
 }
 
@@ -47,7 +48,7 @@ struct Text_Demo: View {
 
         let price = 9.99
         Text("""
-        Price: \(price, format: .currency(code: "USD"))
+        Price: \(price, format: .currency(code: "TWD"))
         """)
 
         Text("""

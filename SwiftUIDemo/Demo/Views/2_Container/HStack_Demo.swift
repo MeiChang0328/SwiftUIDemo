@@ -2,10 +2,16 @@ import SwiftUI
 
 struct HStack_Demo: View {
     var body: some View {
-        HStack {
-            Image(systemName: "star")
-                .foregroundStyle(.yellow)
-            Text("Favorites")
+       
+    
+        HStack(alignment: .bottom, spacing: 200) {
+            Image(systemName: "pencil")
+                .foregroundStyle(.primary)
+                
+            Text("Favoritesssssssssssss")
+                .fontWeight(.bold)
+                .font(.largeTitle)
+                .foregroundStyle(Color.purple)
         }
     }
 }
