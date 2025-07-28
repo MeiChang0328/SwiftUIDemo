@@ -1,15 +1,20 @@
 import SwiftUI
 
+
+
+
 struct DrinkTracker: View {
     @State private var waterCount: Int = 0
+//  @state狀態管理
     @State private var coffeeCount: Int = 0
     @State private var beerCount: Int = 0
 
     private var totalCount: Int {
         waterCount + coffeeCount + beerCount
     }
-
+    
     var body: some View {
+    
         VStack {
             Text("Total number of drinks: \(totalCount)")
             WaterTracker(count: $waterCount)
@@ -33,9 +38,11 @@ struct WaterTracker2: View {
 }
 
 struct WaterTracker: View {
+  
     @Binding var count: Int
 
     var body: some View {
+        let _ = Self._printChanges()
         HStack {
             Text("^[\(count) glass](inflect: true) of water")
             Stepper("", value: $count)
