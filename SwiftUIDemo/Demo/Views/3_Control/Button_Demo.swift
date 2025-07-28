@@ -1,14 +1,16 @@
 import SwiftUI
 
 struct Button_Demo: View {
+    @State private var isPress = false
     var body: some View {
         Button {
-            // save book to favorites
+            isPress.toggle()
+            print("resule:\(isPress)")
         } label: {
             Label("Add to Favorites", systemImage: "star")
-                .foregroundStyle(.black)
                 .padding()
                 .background(.yellow, in: Capsule())
+                .foregroundStyle(isPress ? .green : .red)
         }
     }
 }
