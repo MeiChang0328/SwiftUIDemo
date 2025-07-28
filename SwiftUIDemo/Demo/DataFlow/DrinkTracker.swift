@@ -20,7 +20,7 @@ struct DrinkTracker: View {
             WaterTracker(count: $waterCount)
             CoffeeTracker(count: $coffeeCount)
             BeerTracker(count: $beerCount)
-            Spacer()
+        
         }
         .padding()
     }
