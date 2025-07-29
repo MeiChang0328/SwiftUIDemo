@@ -15,7 +15,9 @@ struct Sheet_Demo: View {
         .sheet(isPresented: $isShowing) {
             Text("Detail")
                 .presentationDetents([.medium, .fraction(0.33)])
-                .presentationDragIndicator(.visible)
+//                .presentationDragIndicator(.visible)
+//                .presentationDragIndicator(.hidden)
+                .presentationDragIndicator(.automatic)
         }
     }
 }
