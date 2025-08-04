@@ -8,7 +8,7 @@ struct SimpleAnimation: View {
             .foregroundStyle(.blue)
             .frame(width: flag ? 100 : 50, height: 50)
             .onTapGesture {
-                withAnimation {
+                withAnimation(.spring) {
                     flag.toggle()
                 } completion: {
                     isPresented.toggle()
