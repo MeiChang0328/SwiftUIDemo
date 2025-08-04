@@ -14,7 +14,9 @@ struct SimpleAnimation: View {
                     isPresented.toggle()
                 }
             }
-
+//        if isPresented{
+//            Text("Done")
+//        } 經長這樣誤用，會沒有預留ＤＯＮＥ的空間
         Text("Done")
             .opacity(isPresented ? 1 : 0)
     }
