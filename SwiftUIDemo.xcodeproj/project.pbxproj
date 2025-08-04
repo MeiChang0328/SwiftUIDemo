@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,21 +30,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		066DBF2A2DA1F4EB006D9D0E /* SwiftUIDemo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUIDemo;
-			sourceTree = "<group>";
-		};
-		066DBF382DA1F4ED006D9D0E /* SwiftUIDemoTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUIDemoTests;
-			sourceTree = "<group>";
-		};
-		066DBF422DA1F4ED006D9D0E /* SwiftUIDemoUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUIDemoUITests;
-			sourceTree = "<group>";
-		};
+		066DBF2A2DA1F4EB006D9D0E /* SwiftUIDemo */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SwiftUIDemo; sourceTree = "<group>"; };
+		066DBF382DA1F4ED006D9D0E /* SwiftUIDemoTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SwiftUIDemoTests; sourceTree = "<group>"; };
+		066DBF422DA1F4ED006D9D0E /* SwiftUIDemoUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SwiftUIDemoUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +175,7 @@
 				};
 			};
 			buildConfigurationList = 066DBF232DA1F4EB006D9D0E /* Build configuration list for PBXProject "SwiftUIDemo" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,7 +184,6 @@
 			);
 			mainGroup = 066DBF1F2DA1F4EB006D9D0E;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 066DBF292DA1F4EB006D9D0E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
