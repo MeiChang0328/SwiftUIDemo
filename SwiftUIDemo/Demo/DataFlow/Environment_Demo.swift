@@ -15,7 +15,7 @@ private struct InternalView: View {
 struct Environment_Demo: View {
     var body: some View {
         InternalView()
-            .environment(\.count, 100)
+            .environment(\.count, 200)
     }
 }
 
