@@ -53,7 +53,7 @@ struct CounterEnvironment: View {
 }
 
 //
-//@State          →  單一 View 本地狀態（短期、簡單）
+//@State          → 一般參數用
 //@Binding        →  引用別人的狀態（雙向綁定）
 //@Observable     →  宣告可觀察物件（多 View 可共用）
 //@Bindable       →  在 View 內雙向綁定 Observable 屬性

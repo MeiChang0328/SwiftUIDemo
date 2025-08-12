@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,32 +30,38 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		066DBF2A2DA1F4EB006D9D0E /* SwiftUIDemo */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SwiftUIDemo; sourceTree = "<group>"; };
-		066DBF382DA1F4ED006D9D0E /* SwiftUIDemoTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SwiftUIDemoTests; sourceTree = "<group>"; };
-		066DBF422DA1F4ED006D9D0E /* SwiftUIDemoUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SwiftUIDemoUITests; sourceTree = "<group>"; };
+		066DBF2A2DA1F4EB006D9D0E /* SwiftUIDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftUIDemo;
+			sourceTree = "<group>";
+		};
+		066DBF382DA1F4ED006D9D0E /* SwiftUIDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftUIDemoTests;
+			sourceTree = "<group>";
+		};
+		066DBF422DA1F4ED006D9D0E /* SwiftUIDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftUIDemoUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		066DBF252DA1F4EB006D9D0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		066DBF322DA1F4ED006D9D0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		066DBF3C2DA1F4ED006D9D0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -93,14 +99,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				066DBF2A2DA1F4EB006D9D0E /* SwiftUIDemo */,
 			);
 			name = SwiftUIDemo;
-			packageProductDependencies = (
-			);
 			productName = SwiftUIDemo;
 			productReference = 066DBF282DA1F4EB006D9D0E /* SwiftUIDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -122,8 +124,6 @@
 				066DBF382DA1F4ED006D9D0E /* SwiftUIDemoTests */,
 			);
 			name = SwiftUIDemoTests;
-			packageProductDependencies = (
-			);
 			productName = SwiftUIDemoTests;
 			productReference = 066DBF352DA1F4ED006D9D0E /* SwiftUIDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -145,8 +145,6 @@
 				066DBF422DA1F4ED006D9D0E /* SwiftUIDemoUITests */,
 			);
 			name = SwiftUIDemoUITests;
-			packageProductDependencies = (
-			);
 			productName = SwiftUIDemoUITests;
 			productReference = 066DBF3F2DA1F4ED006D9D0E /* SwiftUIDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -175,7 +173,6 @@
 				};
 			};
 			buildConfigurationList = 066DBF232DA1F4EB006D9D0E /* Build configuration list for PBXProject "SwiftUIDemo" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -184,6 +181,7 @@
 			);
 			mainGroup = 066DBF1F2DA1F4EB006D9D0E;
 			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = 066DBF292DA1F4EB006D9D0E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -198,48 +196,36 @@
 /* Begin PBXResourcesBuildPhase section */
 		066DBF262DA1F4EB006D9D0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		066DBF332DA1F4ED006D9D0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		066DBF3D2DA1F4ED006D9D0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		066DBF242DA1F4EB006D9D0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		066DBF312DA1F4ED006D9D0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		066DBF3B2DA1F4ED006D9D0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -257,7 +243,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		066DBF472DA1F4ED006D9D0E /* Debug */ = {
+		066DBF472DA1F4ED006D9D0E /* Debug configuration for PBXProject "SwiftUIDemo" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		066DBF482DA1F4ED006D9D0E /* Release */ = {
+		066DBF482DA1F4ED006D9D0E /* Release configuration for PBXProject "SwiftUIDemo" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +366,7 @@
 			};
 			name = Release;
 		};
-		066DBF4A2DA1F4ED006D9D0E /* Debug */ = {
+		066DBF4A2DA1F4ED006D9D0E /* Debug configuration for PBXNativeTarget "SwiftUIDemo" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -395,7 +381,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,7 +397,7 @@
 			};
 			name = Debug;
 		};
-		066DBF4B2DA1F4ED006D9D0E /* Release */ = {
+		066DBF4B2DA1F4ED006D9D0E /* Release configuration for PBXNativeTarget "SwiftUIDemo" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -426,7 +412,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +428,7 @@
 			};
 			name = Release;
 		};
-		066DBF4D2DA1F4ED006D9D0E /* Debug */ = {
+		066DBF4D2DA1F4ED006D9D0E /* Debug configuration for PBXNativeTarget "SwiftUIDemoTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -461,7 +447,7 @@
 			};
 			name = Debug;
 		};
-		066DBF4E2DA1F4ED006D9D0E /* Release */ = {
+		066DBF4E2DA1F4ED006D9D0E /* Release configuration for PBXNativeTarget "SwiftUIDemoTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,7 +466,7 @@
 			};
 			name = Release;
 		};
-		066DBF502DA1F4ED006D9D0E /* Debug */ = {
+		066DBF502DA1F4ED006D9D0E /* Debug configuration for PBXNativeTarget "SwiftUIDemoUITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -497,7 +483,7 @@
 			};
 			name = Debug;
 		};
-		066DBF512DA1F4ED006D9D0E /* Release */ = {
+		066DBF512DA1F4ED006D9D0E /* Release configuration for PBXNativeTarget "SwiftUIDemoUITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -520,37 +506,33 @@
 		066DBF232DA1F4EB006D9D0E /* Build configuration list for PBXProject "SwiftUIDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				066DBF472DA1F4ED006D9D0E /* Debug */,
-				066DBF482DA1F4ED006D9D0E /* Release */,
+				066DBF472DA1F4ED006D9D0E /* Debug configuration for PBXProject "SwiftUIDemo" */,
+				066DBF482DA1F4ED006D9D0E /* Release configuration for PBXProject "SwiftUIDemo" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		066DBF492DA1F4ED006D9D0E /* Build configuration list for PBXNativeTarget "SwiftUIDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				066DBF4A2DA1F4ED006D9D0E /* Debug */,
-				066DBF4B2DA1F4ED006D9D0E /* Release */,
+				066DBF4A2DA1F4ED006D9D0E /* Debug configuration for PBXNativeTarget "SwiftUIDemo" */,
+				066DBF4B2DA1F4ED006D9D0E /* Release configuration for PBXNativeTarget "SwiftUIDemo" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		066DBF4C2DA1F4ED006D9D0E /* Build configuration list for PBXNativeTarget "SwiftUIDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				066DBF4D2DA1F4ED006D9D0E /* Debug */,
-				066DBF4E2DA1F4ED006D9D0E /* Release */,
+				066DBF4D2DA1F4ED006D9D0E /* Debug configuration for PBXNativeTarget "SwiftUIDemoTests" */,
+				066DBF4E2DA1F4ED006D9D0E /* Release configuration for PBXNativeTarget "SwiftUIDemoTests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		066DBF4F2DA1F4ED006D9D0E /* Build configuration list for PBXNativeTarget "SwiftUIDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				066DBF502DA1F4ED006D9D0E /* Debug */,
-				066DBF512DA1F4ED006D9D0E /* Release */,
+				066DBF502DA1F4ED006D9D0E /* Debug configuration for PBXNativeTarget "SwiftUIDemoUITests" */,
+				066DBF512DA1F4ED006D9D0E /* Release configuration for PBXNativeTarget "SwiftUIDemoUITests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */

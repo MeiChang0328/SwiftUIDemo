@@ -71,14 +71,6 @@ struct CounterView: View {
                     .stroke(Color.black,lineWidth:2)
             )
             .frame(width: 250)
-           
-        
-      
-          
-
-            
-           
-
     }
 }
 
