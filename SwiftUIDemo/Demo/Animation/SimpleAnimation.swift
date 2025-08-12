@@ -8,13 +8,15 @@ struct SimpleAnimation: View {
             .foregroundStyle(.blue)
             .frame(width: flag ? 100 : 50, height: 50)
             .onTapGesture {
-                withAnimation {
+                withAnimation(.spring) {
                     flag.toggle()
                 } completion: {
                     isPresented.toggle()
                 }
             }
-
+//        if isPresented{
+//            Text("Done")
+//        } 經長這樣誤用，會沒有預留ＤＯＮＥ的空間
         Text("Done")
             .opacity(isPresented ? 1 : 0)
     }
